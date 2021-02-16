@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/bmiFavicon.svg" type="image/x-icon">
+    <title>BMI Calculator</title>
+</head>
+
+<body>
+    <header>
+        <div class="theme">
+            <img class="changeTheme" src="img/changeTheme.svg" alt="Change theme">
+        </div>
+    </header>
+
+    <main>
+        <div class="bmi-calculator">
+            <div class="title">
+                <img src="img/bmiFavicon.svg" alt="Logo">
+                <h1>BMI Calculator</h1>
+            </div>
+
+            <small class="note">Use metric units.</small>
+
+            <div class="data">
+                <label>Height:</label>
+                <input class="cm" placeholder="Centimeters" type="number" id="height">
+            </div>
+
+            <div class="data">
+                <label>Weight:</label>
+                <input class="kg" placeholder="Kilograms" type="number" id="weight">
+            </div>
+
+            <button class="btn">Calculate</button>
+
+            <div class="result"></div>
+
+            <div class="calculator-footer">
+                <img class="restart" src="img/restart.svg" alt="Restart">
+            </div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
